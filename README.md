@@ -24,9 +24,6 @@ In essense, Kalman filter is a way to extract accurate information out of inaccu
   <img src="output_imgs/visual_output.png" width="500" />
 </p>
 
-## To-do
-
-- [ ] Parameter tuning (Noise variances in EKF)
 
 ## Limitations
 
