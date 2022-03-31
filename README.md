@@ -19,7 +19,7 @@ In essense, Kalman filter is a way to extract accurate information out of inaccu
   <img src="output_imgs/finally.png" width="500" />
 </p>
 <p float="left">
-  <img src="output_imgs/visual_output" width="500" />
+  <img src="output_imgs/visual_output.png" width="500" />
 </p>
 
 ## To-do
