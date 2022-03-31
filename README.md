@@ -1,7 +1,7 @@
 # Real-time error-state extended Kalman Filter (ES-EKF)
 
 ## Introduction
-This is a tutorial to understand error-state extended Kalman filter (ES-EKF) for real-time vehicle trajectory estimation in Carla simulator. 
+This is a project to understand error-state extended Kalman filter (ES-EKF) for real-time vehicle trajectory estimation in Carla simulator. 
 <p float="left">
   <img src="output_imgs/overview.png" width="640" />
 </p>
@@ -33,7 +33,7 @@ In essense, Kalman filter is a way to extract accurate information out of inaccu
 - Sensor noise variances are not optimized.
 
 ## Dependencies
-* CARLA (tested 0.9.11)
+* CARLA (tested 0.9.12)
 * Python 3.7
 * pygame (>=2.0)
 * Matplotlib (tested 3.1.3)
@@ -41,29 +41,29 @@ In essense, Kalman filter is a way to extract accurate information out of inaccu
 ## Tested environment
 * Ubuntu 20.04
 ## Hardware requirement
-Tested on a laptop equipped with an Intel 7820HK and an Nvidia 1070 GPU. [Carla simulator](https://carla.org/) is very computationally demanding and my laptop can barely keep up (which explains why I limit the visualization frame-rate). Use this as a baseline to get a sense of how it would work on your computer.
+Tested on a laptop equipped with an Intel i7 9th Gen and an Nvidia GTX 1650 GPU. [Carla simulator](https://carla.org/) is very computationally demanding and my laptop can barely keep up (which explains why I limit the visualization frame-rate). Use this as a baseline to get a sense of how it would work on your computer.
 
 ## Download instructions
-1. Download [CARLA 0.9.11](https://github.com/carla-simulator/carla/releases/tag/0.9.11) and extract the precompiled Carla package in a folder
-2. `cd CARLA_0.9.11 && cd PythonAPI`
-3. `git clone https://github.com/yan99033/real-time-carla-kalman-filter.git`
+1. Download [CARLA 0.9.12](https://github.com/carla-simulator/carla/releases/tag/0.9.12) and extract the precompiled Carla package in a folder
+2. `cd CARLA_0.9.12 && cd PythonAPI`
+3. `git clone https://github.com/chinmay-d/Real-Time-Extended-Kalman-Filter`
 
 ## How to use
 1. Launch Carla simulator
 ```sh
-cd CARLA_0.9.11
+cd CARLA_0.9.12
 ./CarlaUE4.sh
 ```
 
 **NOTE:** before running Step 2, make sure that the visualization works
 ```sh
-cd PythonAPI && cd real-time-carla-kalman-filter
+cd PythonAPI && cd Real-Time-Extended-Kalman-Filter
 python3 visualize_sensors.py
 ``` 
 
 2. Run Kalman filter
 ```sh
-cd PythonAPI && cd real-time-carla-kalman-filter
+cd PythonAPI && cd Real-Time-Extended-Kalman-Filter
 python3 run_kalman_filter.py
 ```
 
