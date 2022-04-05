@@ -22,11 +22,6 @@ In essense, Kalman filter is a way to extract accurate information out of inaccu
   <img src="output_imgs/visual_output.png" width="500" />
 </p>
 
-## To-do
-
-- [ ] Add mathematical formulas and explanations in a sub-directory
-- [ ] Parameter tuning (Noise variances in EKF)
-
 ## Limitations
 - Initialization of the EKF state 
   - Currently using an average of 10 GNSS positions to estimate the initial position. The orientation and velocity are initialized as Identity and zero velocity. That is why the vehicle trajectory is bad in the beginning and needed to be corrected using subsequent GNSS signals.
@@ -82,5 +77,5 @@ Here are some basic rules to follow:
 ## Acknowledgement
 I certainly learned a lot from the [State Estimation and Localization for Self-Driving Cars course](https://www.coursera.org/learn/state-estimation-localization-self-driving-cars) offered by Coursera. The script, `rotations.py`, is taken directly from the course.
 
-## Licence
+## Lisence
 This project is totally free to use, although credit would be appreciated in case of any reuse of the work.
