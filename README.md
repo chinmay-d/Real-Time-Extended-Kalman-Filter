@@ -92,5 +92,5 @@ Here are some basic rules to follow:
 
 I certainly learned a lot from the [State Estimation and Localization for Self-Driving Cars course](https://www.coursera.org/learn/state-estimation-localization-self-driving-cars) offered by Coursera. The script, `rotations.py`, is taken directly from the course.
 
-## Licence
+## License
 This project is totally free to use, although credit would be appreciated in case of any reuse of the work.
